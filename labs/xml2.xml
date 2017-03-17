@@ -1,0 +1,116 @@
+<Forecast location="Provo UT, UT" lat="40.24N" lon="111.67W" elevation="4554">
+<icon-location>http://forecast.weather.gov/</icon-location>
+<creationTime>3:05 am MDT Mar 17, 2017</creationTime>
+<period>
+<valid>Today</valid>
+<image>newimages/medium/few.png</image>
+<weather>Sunny</weather>
+<temp hilo="H" format="F">76</temp>
+<text>
+Sunny, with a high near 76. Light and variable wind becoming south southwest 5 to 7 mph in the afternoon.
+</text>
+</period>
+<period>
+<valid>Tonight</valid>
+<image>newimages/medium/nfew.png</image>
+<weather>Mostly Clear</weather>
+<temp hilo="L" format="F">48</temp>
+<text>
+Mostly clear, with a low around 48. East wind 5 to 11 mph.
+</text>
+</period>
+<period>
+<valid>Saturday</valid>
+<image>newimages/medium/sct.png</image>
+<weather>Mostly Sunny</weather>
+<temp hilo="H" format="F">78</temp>
+<text>
+Mostly sunny, with a high near 78. East southeast wind 9 to 15 mph becoming south southwest in the afternoon.
+</text>
+</period>
+<period>
+<valid>Saturday Night</valid>
+<image>newimages/medium/nbkn.png</image>
+<weather>Mostly Cloudy</weather>
+<temp hilo="L" format="F">51</temp>
+<text>
+Mostly cloudy, with a low around 51. South southeast wind around 11 mph.
+</text>
+</period>
+<period>
+<valid>Sunday</valid>
+<image>newimages/medium/bkn.png</image>
+<weather>Partly Sunny</weather>
+<temp hilo="H" format="F">68</temp>
+<text>
+Partly sunny, with a high near 68. South southwest wind 8 to 10 mph.
+</text>
+</period>
+<period>
+<valid>Sunday Night</valid>
+<image>newimages/medium/nbkn.png</image>
+<weather>Mostly Cloudy</weather>
+<temp hilo="L" format="F">48</temp>
+<text>Mostly cloudy, with a low around 48.</text>
+</period>
+<period>
+<valid>Monday</valid>
+<image>newimages/medium/ra.png</image>
+<pop>20</pop>
+<weather>Slight Chance Rain</weather>
+<temp hilo="H" format="F">68</temp>
+<text>
+A 20 percent chance of rain. Mostly cloudy, with a high near 68.
+</text>
+</period>
+<period>
+<valid>Monday Night</valid>
+<image>newimages/medium/nbkn.png</image>
+<weather>Mostly Cloudy</weather>
+<temp hilo="L" format="F">46</temp>
+<text>Mostly cloudy, with a low around 46.</text>
+</period>
+<period>
+<valid>Tuesday</valid>
+<image>newimages/medium/bkn.png</image>
+<weather>Partly Sunny</weather>
+<temp hilo="H" format="F">73</temp>
+<text>Partly sunny, with a high near 73.</text>
+</period>
+<period>
+<valid>Tuesday Night</valid>
+<image>newimages/medium/nra.png</image>
+<weather>Slight Chance Rain</weather>
+<temp hilo="L" format="F">45</temp>
+<text>
+A slight chance of rain. Mostly cloudy, with a low around 45.
+</text>
+</period>
+<period>
+<valid>Wednesday</valid>
+<image>newimages/medium/ra.png</image>
+<weather>Chance Rain</weather>
+<temp hilo="H" format="F">64</temp>
+<text>
+A chance of rain. Mostly cloudy, with a high near 64.
+</text>
+</period>
+<period>
+<valid>Wednesday Night</valid>
+<image>newimages/medium/nra.png</image>
+<weather>Chance Rain</weather>
+<temp hilo="L" format="F">40</temp>
+<text>
+A chance of rain. Mostly cloudy, with a low around 40.
+</text>
+</period>
+<period>
+<valid>Thursday</valid>
+<image>newimages/medium/ra.png</image>
+<weather>Chance Rain</weather>
+<temp hilo="H" format="F">60</temp>
+<text>
+A chance of rain. Mostly cloudy, with a high near 60.
+</text>
+</period>
+</Forecast>

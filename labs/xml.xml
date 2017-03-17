@@ -1,0 +1,244 @@
+<dwml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:noNamespaceSchemaLocation="http://graphical.weather.gov/xml/DWMLgen/schema/DWML.xsd">
+<head>
+<product concise-name="dwmlByDay" operational-mode="developmental" srsName="WGS 1984">
+<creation-date refresh-frequency="PT1H">2017-03-17T03:05:55-06:00</creation-date>
+<category>current observations and forecast</category>
+</product>
+<source>
+<production-center>Salt Lake City, UT</production-center>
+<credit>http://www.wrh.noaa.gov/slc</credit>
+<more-information>http://www.nws.noaa.gov/forecasts/xml/</more-information>
+</source>
+</head>
+<data type="forecast">
+<location>
+<location-key>point1</location-key>
+<description>Provo, UT</description>
+<point latitude="40.24" longitude="-111.67"/>
+<city state="UT">Provo</city>
+<height datum="mean sea level">4554</height>
+</location>
+<moreWeatherInformation applicable-location="point1">
+http://forecast.weather.gov/MapClick.php?lat=40.24&lon=-111.67
+</moreWeatherInformation>
+<time-layout time-coordinate="local" summarization="12hourly">
+<layout-key>k-p12h-n13-1</layout-key>
+<start-valid-time period-name="Today">2017-03-17T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Tonight">2017-03-17T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Saturday">2017-03-18T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Saturday Night">2017-03-18T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Sunday">2017-03-19T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Sunday Night">2017-03-19T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Monday">2017-03-20T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Monday Night">2017-03-20T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Tuesday">2017-03-21T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Tuesday Night">2017-03-21T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Wednesday">2017-03-22T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Wednesday Night">2017-03-22T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Thursday">2017-03-23T06:00:00-06:00</start-valid-time>
+</time-layout>
+<time-layout time-coordinate="local" summarization="12hourly">
+<layout-key>k-p24h-n7-1</layout-key>
+<start-valid-time period-name="Today">2017-03-17T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Saturday">2017-03-18T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Sunday">2017-03-19T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Monday">2017-03-20T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Tuesday">2017-03-21T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Wednesday">2017-03-22T06:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Thursday">2017-03-23T06:00:00-06:00</start-valid-time>
+</time-layout>
+<time-layout time-coordinate="local" summarization="12hourly">
+<layout-key>k-p24h-n6-2</layout-key>
+<start-valid-time period-name="Tonight">2017-03-17T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Saturday Night">2017-03-18T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Sunday Night">2017-03-19T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Monday Night">2017-03-20T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Tuesday Night">2017-03-21T18:00:00-06:00</start-valid-time>
+<start-valid-time period-name="Wednesday Night">2017-03-22T18:00:00-06:00</start-valid-time>
+</time-layout>
+<parameters applicable-location="point1">
+<temperature type="maximum" units="Fahrenheit" time-layout="k-p24h-n7-1">
+<name>Daily Maximum Temperature</name>
+<value>76</value>
+<value>78</value>
+<value>68</value>
+<value>68</value>
+<value>73</value>
+<value>64</value>
+<value>60</value>
+</temperature>
+<temperature type="minimum" units="Fahrenheit" time-layout="k-p24h-n6-2">
+<name>Daily Minimum Temperature</name>
+<value>48</value>
+<value>51</value>
+<value>48</value>
+<value>46</value>
+<value>45</value>
+<value>40</value>
+</temperature>
+<probability-of-precipitation type="12 hour" units="percent" time-layout="k-p12h-n13-1">
+<name>12 Hourly Probability of Precipitation</name>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value>20</value>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+<value xsi:nil="true"/>
+</probability-of-precipitation>
+<weather time-layout="k-p12h-n13-1">
+<name>Weather Type, Coverage, Intensity</name>
+<weather-conditions weather-summary="Sunny"/>
+<weather-conditions weather-summary="Mostly Clear"/>
+<weather-conditions weather-summary="Mostly Sunny"/>
+<weather-conditions weather-summary="Mostly Cloudy"/>
+<weather-conditions weather-summary="Partly Sunny"/>
+<weather-conditions weather-summary="Mostly Cloudy"/>
+<weather-conditions weather-summary="Slight Chance Rain"/>
+<weather-conditions weather-summary="Mostly Cloudy"/>
+<weather-conditions weather-summary="Partly Sunny"/>
+<weather-conditions weather-summary="Slight Chance Rain"/>
+<weather-conditions weather-summary="Chance Rain"/>
+<weather-conditions weather-summary="Chance Rain"/>
+<weather-conditions weather-summary="Chance Rain"/>
+</weather>
+<conditions-icon type="forecast-NWS" time-layout="k-p12h-n13-1">
+<name>Conditions Icon</name>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/few.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nfew.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/sct.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nbkn.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/bkn.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nbkn.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/ra20.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nbkn.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/bkn.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nra.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/ra.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nra.png
+</icon-link>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/ra.png
+</icon-link>
+</conditions-icon>
+<wordedForecast time-layout="k-p12h-n13-1" dataSource="slcNetcdf" wordGenerator="markMitchell">
+<name>Text Forecast</name>
+<text>
+Sunny, with a high near 76. Light and variable wind becoming south southwest 5 to 7 mph in the afternoon.
+</text>
+<text>
+Mostly clear, with a low around 48. East wind 5 to 11 mph.
+</text>
+<text>
+Mostly sunny, with a high near 78. East southeast wind 9 to 15 mph becoming south southwest in the afternoon.
+</text>
+<text>
+Mostly cloudy, with a low around 51. South southeast wind around 11 mph.
+</text>
+<text>
+Partly sunny, with a high near 68. South southwest wind 8 to 10 mph.
+</text>
+<text>Mostly cloudy, with a low around 48.</text>
+<text>
+A 20 percent chance of rain. Mostly cloudy, with a high near 68.
+</text>
+<text>Mostly cloudy, with a low around 46.</text>
+<text>Partly sunny, with a high near 73.</text>
+<text>
+A slight chance of rain. Mostly cloudy, with a low around 45.
+</text>
+<text>
+A chance of rain. Mostly cloudy, with a high near 64.
+</text>
+<text>
+A chance of rain. Mostly cloudy, with a low around 40.
+</text>
+<text>
+A chance of rain. Mostly cloudy, with a high near 60.
+</text>
+</wordedForecast>
+</parameters>
+</data>
+<data type="current observations">
+<location>
+<location-key>point1</location-key>
+<point latitude="40.21667" longitude="-111.71667"/>
+<area-description>Provo, Provo Municipal Airport, UT</area-description>
+<height datum="mean sea level" height-units="feet">4498</height>
+</location>
+<moreWeatherInformation applicable-location="point1">
+http://www.wrh.noaa.gov/total_forecast/other_obs.php?wfo=slc&zone=UTZ004
+</moreWeatherInformation>
+<time-layout time-coordinate="local">
+<layout-key>k-p1h-n1-1</layout-key>
+<start-valid-time period-name="current">2017-03-17T04:20:00</start-valid-time>
+</time-layout>
+<parameters applicable-location="point1">
+<temperature type="apparent" units="Fahrenheit" time-layout="k-p1h-n1-1">
+<value>45</value>
+</temperature>
+<temperature type="dew point" units="Fahrenheit" time-layout="k-p1h-n1-1">
+<value>34</value>
+</temperature>
+<humidity type="relative" time-layout="k-p1h-n1-1">
+<value>66</value>
+</humidity>
+<weather time-layout="k-p1h-n1-1">
+<name>Weather Type, Coverage, Intensity</name>
+<weather-conditions weather-summary="Partly Cloudy"/>
+<weather-conditions>
+<value>
+<visibility units="statute miles">10.00</visibility>
+</value>
+</weather-conditions>
+</weather>
+<conditions-icon type="forecast-NWS" time-layout="k-p1h-n1-1">
+<name>Conditions Icon</name>
+<icon-link>
+http://forecast.weather.gov/newimages/medium/nsct.png
+</icon-link>
+</conditions-icon>
+<direction type="wind" units="degrees true" time-layout="k-p1h-n1-1">
+<value>130</value>
+</direction>
+<wind-speed type="gust" units="knots" time-layout="k-p1h-n1-1">
+<value>NA</value>
+</wind-speed>
+<wind-speed type="sustained" units="knots" time-layout="k-p1h-n1-1">
+<value>3</value>
+</wind-speed>
+<pressure type="barometer" units="inches of mercury" time-layout="k-p1h-n1-1">
+<value>30.20</value>
+</pressure>
+</parameters>
+</data>
+</dwml>
